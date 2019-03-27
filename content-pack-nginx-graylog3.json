@@ -1,7 +1,7 @@
 {
   "v": "1",
   "id": "d7dc82ff-529b-488a-b1de-b12b32e756bb",
-  "rev": 2,
+  "rev": 3,
   "name": "nginx_json_graylog3",
   "summary": "Graylog 3.0+ compatible version of nginx_json content pack",
   "description": "",
@@ -1045,7 +1045,7 @@
         },
         "title": {
           "@type": "string",
-          "@value": "nginx HTTP 5XXs"
+          "@value": "nginx HTTP 5XXXs"
         },
         "stream_rules": [
           {
