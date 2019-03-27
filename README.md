@@ -1,6 +1,6 @@
 ### Configuring nginx
 
-You need to run at least nginx version 1.11.8, escaped JSON support.
+You need to run at least nginx version 1.11.8, with `escape=json` support.
 
 **Add this to your nginx configuration file and restart the service:**
 
@@ -19,5 +19,5 @@ You need to run at least nginx version 1.11.8, escaped JSON support.
                          '"http_user_agent": "$http_user_agent" }';
 
     # replace the hostnames with the IP or hostname of your Graylog2 server
-    access_log syslog:server=graylog.server.org:12301 graylog2_json;
-    error_log syslog:server=graylog.server.org:12302;
+    access_log syslog:server=graylog.server.org:12304 graylog2_json;
+    error_log syslog:server=graylog.server.org:12305;
