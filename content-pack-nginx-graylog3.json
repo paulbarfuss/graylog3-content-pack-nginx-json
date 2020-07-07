@@ -1045,7 +1045,7 @@
         },
         "title": {
           "@type": "string",
-          "@value": "nginx HTTP 5XXXs"
+          "@value": "nginx HTTP 5XXs"
         },
         "stream_rules": [
           {
